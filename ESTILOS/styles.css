@@ -1,0 +1,165 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+/*------------------------------------------INDEX----------------------*/
+ /*--------NAV------ */
+    .topnav {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .topnav li {
+    
+        display: inline-block;
+        text-decoration: none;
+    }   
+    /* LINK DE NAV */
+    .topnav a {
+        display: block;
+        color: rgb(4, 99, 94);
+        text-align: center;
+        padding: 10px 40px 10px;
+        margin-top: 60px;
+        text-decoration: none;
+    }
+        /* HOVER DE NAV */
+    .topnav a:hover, .topnav a.split:hover {
+        background-color: rgb(4, 99, 94);
+        color: white;
+    }
+
+        /* FONDO DE BODY*/
+    .fondo_body{
+    background: url("../IMG/sl_030720_28740_16.jpg") fixed;
+    background-position: center;
+    background-size: cover;        
+    }
+
+    /* BLOQUE IZQUIERDA*/
+    .block-left {
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 120px;
+        padding-left: 140px;
+        padding-right: 140px;
+        width: 54%;
+
+        .letrasdestacadas{
+            color: white;
+        }
+        
+        q{
+            color:white; font-size: 25px;
+        }
+        
+    }
+
+    /*BLOQUE DERECHA IMG */
+    .principal_img {
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 50%;
+        border: 5px solid white;
+        margin-top: 20px;
+        width: 45%;
+    }
+
+/*--------------------------LABORAL Y ACADEMIA----------------*/
+
+    tr {
+        border-bottom: 20px;
+    }
+
+    dt { 
+        color: black;
+        padding-top: 20px;
+    }
+    .tituloexpro{
+        font: size 22pt;
+    }
+
+    /* Columnas para la página exp_ayp */
+    .columnaazul {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        height: 100vh;
+        padding: 60px;
+        background-color: cornflowerblue;
+        color: white;
+    }
+    .columnagren{
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+        height: 100vh;
+        padding: 60px;
+        background-color: darkcyan;
+        color: rgb(240, 240, 240);
+        font-size: large;
+    }
+/*------------------CONOCEMe--------------*/
+    /* Columnas para la pagina conoceme */
+    .presen{
+        font-size: 14pt;
+        margin-top: 10vh;
+        color: white;
+    }
+    video {
+        border-radius: 12%;
+        width: 250px;
+        height: 150px;
+        margin: 5px;
+    }
+   
+
+   .aficionesfot{
+        border-radius: 8%;
+        width: 250px;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .aficioncolum {
+        display: inline-block;
+        vertical-align: top;
+        width: 60%;
+        background-color: rgb(135, 222, 208);
+        padding: 60px;
+        height: 100vh;
+    }
+
+    .columnadatos {
+        display: inline-block;
+        vertical-align: top;
+        width: 40%;
+        height: 100vh;
+        background-color: darkcyan;
+        color: white;
+        
+        padding: 60px;
+    }
+    .listabla{
+        font-size: 14pt;
+        margin-top: 10vh;
+        color: white;
+    }
+    .datosblan{
+
+    list-style-type: none;    
+    color:white;
+    }
